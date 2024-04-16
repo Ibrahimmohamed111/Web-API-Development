@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo span {
+    font-size: 1.2rem;
+  }
+  
+  .navbar-buttons button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-buttons button:hover {
+    text-decoration: underline;
+  }
+  
